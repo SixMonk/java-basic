@@ -3,6 +3,15 @@ package entity;
 public class People {
     private String name;
     private int age;
+    private int sex;
+
+    public int getSex() {
+        return sex;
+    }
+
+    public void setSex(int sex) {
+        this.sex = sex;
+    }
 
     public String getName() {
         return name;

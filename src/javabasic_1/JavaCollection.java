@@ -1,6 +1,7 @@
 package javabasic_1;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 
 public class JavaCollection {
@@ -16,5 +17,10 @@ public class JavaCollection {
         for (int i : arraylist) {
             System.out.println(i);
         }
+    }
+
+    public static void testHashMap() {
+        HashMap<String, String> hashMap = new HashMap<>();
+
     }
 }
